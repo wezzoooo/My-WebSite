@@ -6,8 +6,8 @@ import { Icon } from "@iconify/react";
 export default function CvButton() {
     return (
         <motion.a
-            href="/cv.pdf"
-            download
+            href="/Mohamed_Ezzat_CV.pdf"
+            download="Mohamed_Ezzat_CV.pdf"
             initial="closed"
             whileHover="open"
             animate="closed"
