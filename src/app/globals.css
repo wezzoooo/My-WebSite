@@ -121,10 +121,55 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
   }
+
+  ul,
+  li {
+    list-style-type: none;
+  }
+
+  .backdrop-blur {
+    backdrop-filter: blur(10px);
+  }
+
+  .hero-bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 102, 241, 0.25),
+    transparent 70%
+  );
+
+  pointer-events: none;
+}
+
+.dark .hero-bg {
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 102, 241, 0.15),
+    transparent 70%
+  );
+}
+
+a {
+  transition: all 0.2s ease;
+}
+a:hover {
+  transform: translateY(-2px);
+}
 }
