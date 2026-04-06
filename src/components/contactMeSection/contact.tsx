@@ -17,7 +17,7 @@ export default function Contact() {
 
         {/* Form */}
         <motion.form
-          action="https://formsubmit.co/mohamed.elganzore@gmail.com"
+          action="https://formsubmit.co/0df6466a3a27a8f525b25156c76517b2"
           method="POST"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
