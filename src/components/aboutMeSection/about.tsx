@@ -46,7 +46,7 @@ export default function About() {
                     </a>
 
                     <a
-                        href="https://linkedin.com/in/YOUR-LINK"
+                        href="https://linkedin.com/in/mohamed-elganzoury-b7777a245"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-3 rounded-full border hover:bg-muted transition"
@@ -55,7 +55,7 @@ export default function About() {
                     </a>
 
                     <a
-                        href="mailto:your@email.com"
+                        href="mailto:mohamed.elganzore@gmail.com"
                         className="p-3 rounded-full border hover:bg-muted transition"
                     >
                         <Icon icon="simple-icons:gmail" width="20" />

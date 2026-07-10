@@ -17,12 +17,18 @@ export default function Contact() {
 
         {/* Form */}
         <motion.form
-          action="https://formsubmit.co/0df6466a3a27a8f525b25156c76517b2"
+          action="https://api.web3forms.com/submit"
           method="POST"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           className="flex flex-col gap-4 mb-10"
         >
+          <input
+            type="hidden"
+            name="access_key"
+            value="34ca2caf-afde-4a07-8175-0e1259b2bb94"
+          />
+
           <input
             type="text"
             name="name"
