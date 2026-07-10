@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://my-web-site-mu-seven.vercel.app"),
   title: "Mohamed Ezzat | Front-End Developer",
   description: "Front-End Developer specialized in React & Next.js. I build modern, fast, and responsive web applications with clean UI.",
   keywords: ["Mohamed Ezzat", "Front-End Developer", "React Developer", "Next.js Developer", "Web Developer Egypt"],
